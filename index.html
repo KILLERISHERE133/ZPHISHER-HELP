@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to install zphisher in termux?</title>
+    <www.freepcgames.ucoz.site rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body{
+            margin: 0;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .myNav{
+            overflow: hidden;
+            background-color: rgb(5,37,51);
+            text-align: center;
+        }
+        .myNav a{
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .myNav a:hover{
+            background-color: rgb(13, 99, 105);
+            color: black;
+        }
+        .myNav a.active{
+            background-color: #04577e;
+            color: white;
+        }
+        .myNav .icon{
+            display: none;
+        }
+        @media screen  and (max-width: 500px){
+            .myNav a:not(:first-child){display: none;}
+            .myNav a.icon{
+                float: right;
+                display: block;
+            }
+        }
+        @media screen and (max-width: 500px){
+            .myNav.responsive{position: relative;}
+            .myNav.responsive .icon{
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .myNav.responsive a{
+                float: none;
+                display: block;
+                text-align: left;
+            }
+            
+        }
+     i{
+         padding: 0 2px;
+         color: orangered;
+     }
+    </style>
+</head>
+<body>
+    <div class="myNav" id="myTopNav">
+      <a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+      <a href="#"><i class="fa fa-cog"></i>Service</a>
+      <a href="#"><i class="fa fa-user"></i>Registration</a>
+      <a href="#"><i class="fa fa-lock"></i>Login</a>
+      <a href="#"><i class="fa fa-user"></i>About</a>
+      <a href="#"><i class="fa fa-address-book"></i>Contact</a>
+      <a href="#"><i class="fa fa-image"></i>Gallery</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFun()">
+          <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+        function myFun()
+        {
+var x=document.getElementById("myTopNav");
+if(x.className=="myNav")
+{
+    x.className+=" responsive";
+}
+else{
+    x.className="myNav";
+}
+        }
+    </script>
+    </header>
+    <div class="banner"><img alt="" src="https://i.postimg.cc/yNjgqjLF/bestiq.png"><\div>
+	<div class="content">
+		<p>WHAT IS ZPHISHER?:
+                <p>Zphisher is a tool that uses ngrok and some other tools to create a phishing link that is numerical and it logs all the content or personal info of you when you type in the link but do use adfly or other webs to turn link into alphabets and the target will be hacked or fooled now lets start with installation.
+                <p>INSTALLATION:
+                <P>First write
+pkg install git    (if you have not installed git yet)
+
+then type 
+ 
+git clone https://github.com/htr-tech/zphisher 
+
+then type 
+
+cd zphisher 
+
+then type 
+
+bash zphisher.sh 
+
+<div class="banner"><img alt="" src="https://i.postimg.cc/t40YLNfJ/download-1.png"><\div>
+
+now wait for required programs to install and then the tool will start and now there are numbers marking different webs or apps and whichever number you choose it will create a phishing link from that website for you.now i choose 3 means i will hack a google account and now it will give 3 options i will choose 2 and now we will be seeing a page with "http:127.78.92.com" and it will be a phishing page now send this link to the target and ask him/her to sign in/log in with his account and when they will do so you will get a password and email or username of target now you are the hacker and he is hacked.....
+  the results will be like this:
+
+<div class="banner"><img alt="" src="https://i.postimg.cc/JzCMMrLc/download.png"><\div>            
+               <p>HAPPY HACKING,HACKERS.....
+</div>
+<div class="comment">
+<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+<input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
+</div>
+<div id="display"></div>
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var messageBox = document.getElementById("display");
+function Allow()
+{
+if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+{
+user.title.value="";
+alert("Please Enter only alphabets");
+}
+window.location.reload()
+}
+function insert () {
+titles.push(titleInput.value);
+clearAndShow();
+}
+function clearAndShow ()
+{
+titleInput.value = "";
+messageBox.innerHTML = "";
+messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+}
+</script>
+	<footer>
+		<p>All Right Reserved By HAcker</p>
+	</footer>    
+</body>
+</html>
